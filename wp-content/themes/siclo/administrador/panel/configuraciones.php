@@ -1,0 +1,1 @@
+<div id="panel_configuraciones" class="panel panel_normal panel_doble"><header>Configuraciones generales</header><div id="lista_configuraciones"></div></div>

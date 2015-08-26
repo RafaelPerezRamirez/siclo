@@ -1,0 +1,10 @@
+.frameBody {
+	font-size: 15px;
+    padding: 5px!important;
+    color: #898989!important;
+    background: #eeeeee!important;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif!important;
+}
+iframe{
+	height: 100!important;
+}

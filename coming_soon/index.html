@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Siclo | Coming Soon</title>
+<style>
+    @font-face
+    {
+     font-family: 'gotham1';
+     src: url('GothamRnd-Medium.otf');
+    }
+    html{
+        display: block;
+        background: url('cooming.png') no-repeat;
+        min-height: 100%;
+        background-position: center bottom;
+    }
+    body{
+        padding: 2em;
+        max-width: 100%;
+    }
+    .logo{
+        width: 100px;
+        margin-bottom: 10px;
+    }
+    .rodar{
+        text-align: center;
+    }
+    h2{
+        font-size: 43px;
+        font-family: 'gotham1';
+        text-align: center;
+        font-weight: normal;
+    }
+    .azul{
+        color: #0ba2ff;
+    }
+    .rodar{
+        position: relative;
+    }
+    .principal{
+        position: fixed;
+        bottom: 0;
+        width: 65%;
+        left: 12%;
+        z-index: -10;
+    }
+    .redes{
+        position: fixed;
+        right: 100px;
+        bottom: 20px;
+    }
+    .red{
+        width: 20%;
+        display: inline-block;
+        margin-left: 15px;
+    }
+    @media screen and (max-width: 800px){
+        h2{
+            font-size: 32px;
+        }
+        .logo{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 80px;
+        }
+        .redes {
+            bottom: 10px;
+            left: 50%;
+            width: 170px;
+            margin-left: -85px;
+            text-align: center;
+        }
+        
+        html{
+            background-size: contain;
+        }
+    }
+    @media screen and (max-height: 592px){
+        h2{
+            font-size: 30px;
+        }
+    }
+     @media screen and (max-height: 350px){
+        body{
+            padding: 1em;
+        }
+        h2{
+            font-size: 25px;
+        }
+		html{
+			background: none;
+		}
+    }
+</style>
+</head>
+<body>
+    <img src="logo.png" class="logo">
+    <h2>¡Estamos a punto de <span class="azul">rodar!</span> Gracias por tu registro.</h2>
+    <div class="rodar">
+        <div class="redes">
+            <div class="red"><a href="https://instagram.com/siclo/" target="_blank"><img src="ins.png"></a></div>
+            <div class="red"><a href="https://twitter.com/siclomx" target="_blank"><img src="tw.png"></a></div>
+            <div class="red"><a href="https://www.facebook.com/Siclomx?ref=hl" target="_blank"><img src="fb.png"></a></div>
+        </div>
+    </div>
+</body>
+</html>

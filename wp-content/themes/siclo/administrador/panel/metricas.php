@@ -1,0 +1,1 @@
+<div id="panel_metricas" class="panel panel_normal"><header>Reportes y métricas</header><div id="lista_metricas"></div></div>
